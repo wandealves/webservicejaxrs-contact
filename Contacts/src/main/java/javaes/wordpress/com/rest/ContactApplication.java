@@ -14,7 +14,7 @@ public class ContactApplication extends Application {
 	public Map<String, Object> getProperties() {
 		Map<String, Object> properties = new HashMap<>();
 		// Configura o pacote para fazer scan das classes com anota��es REST.
-		properties.put("jersey.config.server.provider.packages", "javaes.wordpress.com");
+		properties.put("jersey.config.server.provider.packages", "javaes.wordpress.com.rest");
 		return properties;
 	}
 }
